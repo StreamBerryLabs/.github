@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreamBerry Desktop | Wireless Webcam Client for Linux & Windows</title>
+    <meta name="description"
+        content="Official desktop client for StreamBerry. Creates a virtual camera device on Linux and Windows. Auto-connects to your phone.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="index.html"
+                        style="text-decoration: none; color: inherit; display: flex; align-items: center; gap: 1rem;">
+                        <img src="logo.png" alt="StreamBerry Logo">
+                        <span>StreamBerryLabs</span>
+                    </a>
+                </div>
+                <div class="nav-links">
+                    <a href="app.html" class="nav-item">App</a>
+                    <a href="desktop.html" class="nav-item active">Desktop</a>
+                    <a href="plugin.html" class="nav-item">Plugin</a>
+                    <a href="blog/index.html" class="nav-item">Blog</a>
+                </div>
+                <div class="social-links" style="margin:0; gap:1rem;">
+                    <a href="https://github.com/StreamBerryLabs"><i class="fab fa-github"></i></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" style="min-height: 60vh;">
+        <div class="blob blob-2"></div>
+        <div class="container hero-content">
+            <h1>Native <span class="gradient-text">Desktop Client</span></h1>
+            <p>Seamlessly connect your phone to your PC. Creates a native virtual camera for Zoom, Discord, and OBS.</p>
+            <div class="btn-group">
+                <a href="https://github.com/StreamBerryLabs/streamberry-desktop/releases" class="btn btn-primary">
+                    <i class="fab fa-linux"></i> Download .deb
+                </a>
+                <a href="#" class="btn btn-glass">
+                    <i class="fab fa-windows"></i> Windows (Soon)
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="grid">
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-plug"></i></div>
+                    <h3>Virtual Camera</h3>
+                    <p>Creates a <code>/dev/video</code> device on Linux, making your phone appear as a native webcam to
+                        all apps.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-sync"></i></div>
+                    <h3>Auto-Connect</h3>
+                    <p>Automatically discovers your phone on the local network and connects instantly. No IP typing
+                        required.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-ghost"></i></div>
+                    <h3>System Tray</h3>
+                    <p>Runs silently in the background. Use <code>--minimized</code> to start hidden in the tray.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 StreamBerryLabs. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
